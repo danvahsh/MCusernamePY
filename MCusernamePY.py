@@ -1,11 +1,15 @@
 from english_words import english_words_lower_alpha_set
-from mojang import MojangAPI
+from better_profanity import profanity
+from mojang import API
+
+mojangapi = API()
 
 for word in english_words_lower_alpha_set:
-    uuid = MojangAPI.get_uuid(word)
-    if not uuid:
-        print("\n", word, "is probably not taken", "\n")
-        list = open("avaliable.usernames", "a")
-        current_word = word + "\n"
-        list.write(current_word)
-        list.close()
+    flagged = profanity.contains_profanity(word)
+    if flagged == False:
+        uuid = mojangapi.get_uuid(word)
+        if not uuid:
+            print("\n", word, "is probably not taken", "\n")
+            with open("avaliable_usernames.txt", "a") as list:
+                current_word = word + "\n"
+                list.write(current_word)
