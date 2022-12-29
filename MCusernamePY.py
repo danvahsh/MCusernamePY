@@ -3,7 +3,7 @@ from better_profanity import profanity
 from mojang import API
 import time
 
-program_version = '0.1'
+program_version = '1.1'
 
 print(f'''MCusernamePY [Version {program_version}] | (c) 2022-Present Daniel Vahsholtz''')
 
