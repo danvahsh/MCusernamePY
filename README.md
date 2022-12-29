@@ -13,8 +13,8 @@ Alternatively you can check the releases page for .exe builds.
 
 ## Current usernames found with MCusernamePY
 
-`seismography`: https://namemc.com/profile/seismography.1
-`religiosity`: https://namemc.com/profile/religiosity.2
-`stereography`: https://namemc.com/profile/stereography.1
+`seismography`: https://namemc.com/profile/seismography.1 <br> 
+`religiosity`: https://namemc.com/profile/religiosity.2 <br> 
+`stereography`: https://namemc.com/profile/stereography.1 <br> 
 
 (To get your username that you found with MCusernamePY in this list, please dm me at `! Dvniel#4108`)
