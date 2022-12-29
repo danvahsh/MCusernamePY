@@ -3,6 +3,10 @@ from better_profanity import profanity
 from mojang import API
 import time
 
+program_version = '0.1'
+
+print(f'''MCusernamePY [Version {program_version}] | (c) 2022-Present Daniel Vahsholtz''')
+
 mojangapi = API()
 
 for word in english_words_lower_alpha_set:
