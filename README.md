@@ -17,4 +17,4 @@ Alternatively you can check the releases page for .exe builds.
 `religiosity`: https://namemc.com/profile/religiosity.2 <br> 
 `stereography`: https://namemc.com/profile/stereography.1 <br> 
 
-(To get your username that you found with MCusernamePY in this list, please dm me at `! Dvniel#4108`)
+(To get your username that you found with MCusernamePY in this list, please dm me at `! Dan#9425`)
